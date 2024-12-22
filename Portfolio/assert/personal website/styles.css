@@ -1,0 +1,113 @@
+body {
+    font-family: Arial, sans-serif;
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+
+header {
+    background-color: #333;
+    color: white;
+    padding: 10px 0;
+    text-align: center;
+}
+
+header nav ul {
+    list-style: none;
+    padding: 0;
+}
+
+header nav ul li {
+    display: inline;
+    margin: 0 15px;
+}
+
+header nav ul li a {
+    color: white;
+    text-decoration: none;
+}
+
+header nav ul li a:hover {
+    text-decoration: underline;
+}
+
+/* About Me Section */
+#about {
+    background-color: #f4f4f4;
+    padding: 20px;
+    text-align: center;
+}
+
+#about h1 {
+    color: #333;
+}
+
+#about img {
+    border-radius: 50%;
+    width: 150px;
+    height: 150px;
+    object-fit: cover;
+    margin-top: 20px;
+}
+
+/* Projects Section */
+#projects {
+    background-color: #fff;
+    padding: 20px;
+}
+
+#projects h2 {
+    text-align: center;
+    color: #333;
+}
+
+.project {
+    background-color: #f9f9f9;
+    padding: 15px;
+    margin: 10px 0;
+    border-radius: 8px;
+}
+
+/* Contact Section */
+#contact {
+    background-color: #f4f4f4;
+    padding: 20px;
+}
+
+#contact h2 {
+    text-align: center;
+}
+
+form {
+    display: grid;
+    gap: 15px;
+    max-width: 400px;
+    margin: 0 auto;
+}
+
+form input, form textarea, form button {
+    padding: 10px;
+    width: 100%;
+    font-size: 16px;
+}
+
+form button {
+    background-color: #333;
+    color: white;
+    border: none;
+}
+
+form button:hover {
+    background-color: #555;
+}
+
+/* Footer Section */
+footer {
+    background-color: #333;
+    color: white;
+    text-align: center;
+    padding: 10px;
+    position: absolute;
+    bottom: 0;
+    width: 100%;
+}
